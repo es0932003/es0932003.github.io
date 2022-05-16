@@ -1,0 +1,326 @@
+/*Group Name: The Bug Crawlers
+Group Members: Arabella McEntire, Aveline McEntire, Emmaleigh Stone
+Due Date: 04/11/2022*/
+
+
+/******************BOTH PAGE STYLINGS******************/
+/************BEGINNING OF BODY************/
+/*body styling*/
+body {
+  background-color: #f5edd6;
+  background-image: url("border.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-attachment: fixed;
+}
+/************END OF BODY************/
+/************BEGINNING OF HEADER************/
+/*BEGINNING OF BANNER CLASS*/
+/*division banner styling*/
+div.banner {
+  background-color:  rgb(63, 18, 13);
+  padding: 20px;
+  padding-top: none;
+  padding-left: 40px;
+  text-align: center;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+/*division banner h1 styling*/
+div.banner h1 {
+  font-family: 'Lobster', cursive;
+  color: white;
+  font-size: 60px;
+  letter-spacing: .25em;
+}
+/*END OF BANNER CLASS*/
+/*BEGINNING OF LOGO CLASS*/
+/*division logo styling*/
+div.logo {
+  padding: 0px;
+  margin: 0px;
+}
+/*division logo image styling*/
+div.logo img {
+  max-width: 200px;
+}
+/*END OF LOGO CLASS*/
+/******BEGINNING OF NAVIGATION******/
+/*header navigation styling*/
+header nav {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(29,177,209);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+/*header navigation unordered list styling*/
+header nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+}
+/*header navigation unordered list item styling*/
+header nav ul li {
+  display: inline-block;
+  background-color: rgb(29,177,209);
+}
+/*header navigation unordered list item link styling*/
+header nav ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+  display: block;
+  font-size: 22px;
+  padding: 10px 15px;
+  border-radius: 3px;
+  transition: 0.3s ease all;
+  line-height: 60px;
+  font-size: 20px;
+}
+/* header navigation list item link hover styling*/
+header nav a:hover{
+    background-color: #000000;
+}
+/*header navigation list item link after styling*/
+header nav li a::after {
+  content: ' +';
+}
+/*header navigation list item link only child after styling*/
+header nav li a:only-child::after {
+    content: '';
+}
+/*header navigation unordered list within the unordered list styling*/
+header nav ul ul {
+    display: none;
+    position: absolute;
+    top: 60px;
+}
+/* header navigation unordered list within the unordered list hover styling*/
+header nav ul li:hover ul {
+    display: inherit;
+}
+/* header navigation unordered list within the unordered list item styling*/
+header nav ul ul li{
+    width: 170px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+/******END OF NAVIGATION******/
+/************END OF HEADER************/
+/************BEGINNING OF FOOTER************/
+/*footer styling*/
+footer {
+  background-color: rgb(29,177,209);
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  height: 50px;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1.25px;
+}
+/************END OF FOOTER************/
+
+/******************HOME PAGE STYLINGS******************/
+/************BEGINNING OF SECTION************/
+/*BEGINNING OF DESCRIPTION CLASS*/
+/*section description styling*/
+section.description {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  background-color: rgb(238, 203, 47);
+  border-radius: 5px;
+  padding: 25px;
+  margin-bottom: 60px;
+  z-index: -2;
+}
+/*section description h1 styling*/
+section.description h1 {
+  font-size: 30px;
+}
+/*section description p styling*/
+section.description p {
+  font-size: 25px;
+  letter-spacing: 2px;
+  font-family: Georgia;
+  color: black;
+  text-align: right;
+  padding: 20px;
+}
+/*ENDING OF DESCRIPTION CLASS*/
+/************END OF SECTION************/
+/*BEGINNING OF STORE CLASS*/
+/*division store h1 styling*/
+div.store h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  max-width: 30%;
+}
+/*BEGINNING OF BEEKEEPERS CLASS*/
+/*division store division beekeepers styling*/
+div.store div.beekeepers {
+  flex-wrap: nowrap;
+}
+/*division store division beekeepers image styling*/
+div.store div.beekeepers img {
+  max-width: 40%;
+  padding-left: 30px;
+}
+/************BEGINNING OF ASIDE************/
+/*division store division beekeepers aside styling*/
+div.store div.beekeepers aside {
+  float: right;
+  background-color: rgb(63, 18, 13);
+  padding: 20px;
+  margin-right: 50px;
+  color: white;
+  border-radius: 10px;
+  max-width: 600px;
+  display:inline-block;
+  width:100%;
+  vertical-align:top;
+  position: relative;
+  line-height: 2.5em;
+}
+/*division store division beekeepers aside h2 before styling*/
+div.store div.beekeepers aside h2::before {
+  content: open-quote;
+  font-weight: bold;
+  font-size: 2em;
+  font-family: 'Times New Roman', Times, serif;
+}
+/*division store division beekeepers aside h2 after styling*/
+div.store div.beekeepers aside h2::after {
+  content: close-quote;
+  font-weight: bold;
+  font-size: 2em;
+  font-family: 'Times New Roman', Times, serif;
+}
+/************END OF ASIDE************/
+/*END OF BEEKEEPERS CLASS*/
+/************BEGINNING OF ARTICLE************/
+/*division store article h2 styling*/
+div.store article h2 {
+  color: black;
+  padding: 20px;
+  padding-bottom: none;
+}
+/*division store article iframe styling*/
+div.store article iframe {
+  position: relative;
+  width: 80%;
+  height: 600px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 2px solid black;
+  background-image: none;
+  z-index: 99;
+}
+/************END OF ARTICLE************/
+/*END OF STORE CLASS*/
+
+
+/******************ABOUT PAGE******************/
+/*BEGINNING OF MEET CLASS*/
+/*division meet styling*/
+div.meet {
+  background-color: rgb(235, 205, 76);
+  padding: 20px;
+  margin: 30px;
+  border-radius: 10px;
+  margin-top: 90px;
+}
+/*division meet h1 styling*/
+div.meet h1 {
+  font-family: 'Brush Script MT';
+  font-size: 50px;
+  padding-left: 20px;
+  letter-spacing: .25em;
+  text-align: center;
+}
+/*division meet p styling*/
+div.meet p {
+  padding-bottom: 40px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5em;
+}
+/*BEGINNING OF ARABELLA CLASS*/
+/*division meet division arabella styling*/
+div.meet div.arabella {
+  float: right;
+  text-align: right;
+}
+/*division meet division arabella h2 styling*/
+div.meet div.arabella h2 {
+  font-size: 30px;
+    text-shadow: 2px 2px white;
+}
+/*division meet division arabella p styling*/
+div.meet div.arabella p {
+  font-size: 20px;
+  text-shadow: none;
+}
+/*END OF ARABELLA CLASS*/
+/*BEGINNING OF AVE CLASS*/
+/*division meet division ave styling*/
+div.meet div.ave {
+  text-align: left;
+}
+/*division meet division ave h2 styling*/
+div.meet .ave h2 {
+  font-size: 30px;
+  text-shadow: 2px 2px white;
+}
+/*division meet division ave p styling*/
+div.meet div.ave p {
+  font-size: 20px;
+  text-shadow: none;
+}
+/*END OF AVE CLASS*/
+/*BEGINNING OF EMMA CLASS*/
+div.meet div.emma {
+  text-align: right;
+}
+/*division meet division emma h2 styling*/
+div.meet div.emma h2 {
+  font-size: 30px;
+  text-shadow: 2px 2px white;
+}
+/*division meet division emma p styling*/
+div.meet div.emma p {
+  font-size: 20px;
+  text-shadow: none;
+}
+/*END OF EMMA CLASS*/
+/*END OF MEET CLASS*/
+/*BEGINNING OF CONSERVANCY CLASS*/
+/*division conservancy styling*/
+div.conservancy {
+  background-color: white;
+  border-radius: 10px;
+}
+/*division conservancy image styling*/
+div.conservancy img{
+  max-height: 300px;
+  padding-top: 40px;
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+}
+/*division conservancy p styling*/
+div.conservancy p {
+  font-size: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 2em;
+}
+/*END OF CONSERVANCY CLASS*/

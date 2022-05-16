@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L11 Assign Survey Form", "L11 Assign Survey Form\L11 Assign Survey Form.csproj", "{126179D3-3F49-467F-9753-9446DE53C179}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{126179D3-3F49-467F-9753-9446DE53C179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{126179D3-3F49-467F-9753-9446DE53C179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{126179D3-3F49-467F-9753-9446DE53C179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{126179D3-3F49-467F-9753-9446DE53C179}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE8C2974-D60A-452D-A561-E50FEED73EBE}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://cisteam.otc.edu/tfs/es0932003
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = L11\u0020Assign\u0020Survey\u0020Form\\L11\u0020Assign\u0020Survey\u0020Form.csproj
+		SccProjectName1 = L11\u0020Assign\u0020Survey\u0020Form
+		SccLocalPath1 = L11\u0020Assign\u0020Survey\u0020Form
+	EndGlobalSection
+EndGlobal

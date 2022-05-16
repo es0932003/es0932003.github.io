@@ -1,0 +1,329 @@
+/*Website name: Emmaleigh Stone*/
+/*Website description: a professional bio/resume*/
+/*Programmer: Emmaleigh Stone*/
+/*Due Date: 5/13/2022*/
+/********************BEGINNING OF ALL PAGES STYLING********************/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  color: #22223b;
+}
+html {
+  height: 100%;
+}
+body {
+  background-color: #F8EDEB;
+  min-height: 100%;
+}
+/***************BEGINNING OF HEADER STYLING***************/
+header {
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  background-color: #FAE1DD;
+  border-bottom: 1px solid;
+}
+header a {
+  text-decoration: none;
+  font-variant: small-caps;
+  font-weight: 200;
+  font-size: 50px;
+  letter-spacing: 1.5px;
+}
+header a:hover {
+  font-weight: 300;
+  transition: 0.2s;
+}
+/***************END OF HEADER STYLING***************/
+/***************BEGINNING OF NAVIGATION STYLING***************/
+.main-menu {
+  background-color: #FCD5CE;
+  padding: 12.5px;
+  border-bottom: 1px solid;
+}
+.main-menu .flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: space-around;
+  list-style-type: none;
+  width: 100%;
+  background-color: #FCD5CE;
+}
+.main-menu .flex li a {
+  text-decoration: none;
+  font-weight: 200;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px 15px;
+}
+.main-menu .flex li a:hover {
+  font-weight: 300;
+  border: #22223b 0.1px solid;
+  transition: 0.2s;
+}
+.main-menu .flex li .picked {
+  border: #22223b 0.25px solid;
+}
+.secondary-menu {
+  background-color: #FEC5BB;
+  padding: 10px;
+  border-bottom: 1px solid;
+}
+.secondary-menu .flex1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: space-around;
+  list-style-type: none;
+  width: 100%;
+  background-color: #FEC5BB;
+}
+.secondary-menu .flex1 li a {
+  text-decoration: none;
+  font-weight: 200;
+  font-size: 15px;
+  text-align: center;
+}
+.secondary-menu .flex1 li a:hover {
+  font-weight: 300;
+  transition: 0.2s;
+}
+/***************END OF NAVIGATION STYLING***************/
+/**********BEGINNING OF CONTENT CLASS GENERAL STYLING**********/
+.content {
+  background-color: #D8E2DC;
+  padding: 25px;
+}
+.content section {
+  border-bottom: dashed #22223b 1.5px;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+}
+.content section:nth-last-of-type(1) {
+  border-style: none;
+  margin-bottom: auto;
+}
+.content section h1 {
+  width: 80%;
+  text-align: left;
+  margin: auto;
+  margin-bottom: 20px;
+  font-weight: 200;
+  font-size: 30px;
+}
+.content section h2 {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+  font-weight: 300;
+  font-size: 25px;
+}
+.content section h3 {
+  width: 80%;
+  text-align: right;
+  margin: auto;
+  margin-bottom: 15px;
+  font-weight: 300;
+  font-size: 20px;
+  font-variant: small-caps;
+}
+.content section h4 {
+  width: 80%;
+  text-align: left;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: 300;
+  font-size: 20px;
+  font-variant: small-caps;
+}
+.content section h5 {
+  width: 70%;
+  margin-left: 15%;
+  text-align: center;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+.content section h6 {
+  float: left;
+  width: 50%;
+  margin-left: 7.5%;
+  text-align: left;
+  font-weight: 200;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.content section p {
+  width: 75%;
+  margin-left: 12.5%;
+  font-size: 17px;
+  font-weight: 300;
+}
+.content .inner-section {
+  width: 80%;
+  border-bottom: dashed #22223b 1.5px;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+  margin-left: 10%;
+}
+.content .inner-section:nth-last-of-type(1) {
+  border-style: none;
+  margin-bottom: auto;
+}
+/**********END OF CONTENT CLASS GENERAL STYLING**********/
+/***************BEGINNING OF FOOTER STYLING***************/
+footer {
+  background-color: #E8E8E4;
+  padding: 20px;
+  padding-bottom: 30px;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+footer span {
+  float: right;
+  text-align: right;
+  font-size: 17.5px;
+}
+
+footer a {
+  text-decoration: none;
+  float: left;
+  margin-right: 20px;
+  font-size: 17.5px;
+}
+/***************END OF FOOTER STYLING***************/
+/********************END OF ALL PAGES STYLING********************/
+/********************BEGINNING OF HOME PAGE STYLING********************/
+.content section .inner-home {
+ height: 100px;
+ border-bottom: none;
+ padding-bottom: none;
+}
+.content section .inner-home:nth-last-of-type(1) {
+ margin-top: 0;
+margin-bottom: 50px;
+height: 80vh;
+}
+.content section .inner-home img {
+ float: right;
+ width: 20%;
+ margin-right: 7.5%;
+ margin-top: 2.5%;
+ border-radius: 10px;
+ border: solid #22223b 2px;
+}
+.content section .inner-home address {
+ position: relative;
+ float: left;
+ margin-left: 10%;
+ width: 50%;
+ font-size: 15px;
+ letter-spacing: 1.5px;
+ font-weight: 300;
+ margin-bottom: 5px;
+}
+.content section .inner-home address a {
+ text-decoration: none;
+ font-weight: 400;
+}
+.content section .inner-home address a:hover {
+ font-weight: 600;
+ transition: .2s;
+}
+.content section .inner-home form {
+ position: relative;
+ float: left;
+ margin-left: 10%;
+ width: 50%;
+ font-size: 15px;
+ font-weight: 300;
+ margin-bottom: 5px;
+ border: dashed #22223b 1.5px;
+ padding-right: 50px;
+ padding-top: 20px;
+ padding-bottom: 10px;
+ text-align: right;
+ color: #22223b;
+}
+.content section .inner-home form input {
+ margin: 5px;
+}
+.content section .inner-home form label {
+ margin: 5px;
+}
+.content section .inner-home form .submit {
+ background-color: #FEC89A;
+ padding: 5px;
+ color: #22223b;
+ font-variant: small-caps;
+}
+.content section .inner-home form .submit:hover {
+ box-shadow: #22223b 0px 5px 10px 0px;
+}
+/********************END OF HOME PAGE STYLING********************/
+/********************BEGINNING OF EDUCATION PAGE STYLING********************/
+.content #Cur h1{
+  text-align: right;
+}
+.content section table, th, td {
+  border: 1.5px solid #22223b;
+  border-collapse: collapse;
+}
+.content section table {
+  text-align: center;
+  padding: 10px;
+  width: 80%;
+  margin: auto;
+  background-color: #FFD7BA;
+}
+
+.content section th {
+  font-weight: 600;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #FEC89A;
+}
+.content section td {
+  font-weight: 300;
+  padding: 5px;
+  font-size: 15px;
+}
+.content section tr:nth-child(even) {
+  background-color: #FFE5D9;
+}
+
+/********************END OF EDUCATION PAGE STYLING********************/
+/********************BEGINNING OF PROJECTS PAGE STYLING********************/
+.content #CS h1 {
+  text-align: right;
+}
+.content section .inner-section iframe {
+  width: 80%;
+  margin-left: 10%;
+  height: 500px;
+  border: #22223b 2px solid;
+}
+embed {
+  width: 80%;
+  margin-left: 10%;
+  height: 500px;
+  background-color: #FFD7BA;
+  border: #22223b 2px solid;
+}
+embed:nth-child(even) {
+  background-color: #FFE5D9;
+}
+/********************END OF PROJECTS PAGE STYLING********************/
+/********************BEGINNING OF ABOUT ME PAGE STYLING********************/
+.content #Hobb h1{
+  text-align: right;
+}
+/********************END OF ABOUT ME PAGE STYLING********************/

@@ -1,0 +1,49 @@
+/*Group Name: The Bug Crawlers
+Group Members: Arabella McEntire, Aveline McEntire, Emmaleigh Stone
+Due Date: 04/11/2022*/
+
+
+/************BEGINNING OF BODY************/
+/*body styling*/
+body {
+  background-color: #f5edd6;
+}
+/*body h2 styling*/
+body h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 4px 4px white;
+    background-color: rgb(238, 203, 47);
+    width: 36%;
+    margin-left: 32%;
+    margin-right: 32%;
+    border-radius: 10px;
+    border: 5px dashed white;
+}
+/*BEGINNING OF BOX CLASS*/
+/*body division box styling*/
+body .box {
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+/*body division box image styling*/
+.box img {
+  max-width: 350px;
+  min-width: 300px;
+  max-height: 300px;
+  min-height: 300px;
+  border: 3px dashed white;
+  padding: 10px;
+}
+/*body division box image hover styling*/
+.box div img:hover {
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+/*END OF BOX CLASS*/
+/************END OF BODY************/
